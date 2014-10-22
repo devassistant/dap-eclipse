@@ -1,0 +1,16 @@
+package_name: eclipse
+version: 0.10.0dev
+license: GPLv2+
+authors:
+  - Bohuslav Kabrda <bkabrda@redhat.com>
+  - Tomas Radej <tradej@redhat.com>
+  - Jaromír Končický <jkoncick@redhat.com>
+  - Michal Srb <msrb@redhat.com>
+  - Petr Hracek <phracek@redhat.com>
+homepage: https://github.com/devassistant/dap-eclipse
+summary: Eclipse snippet and assistant
+bugreports: https://github.com/devassistant/dap-eclipse/issues
+dependencies:
+  - common_args
+description: |
+    Installs and configures eclipse. Works as a mod assistant or a snippet, so you can use it form other assistants.
